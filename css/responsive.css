@@ -1,0 +1,95 @@
+@media screen and (max-width: 469px) {
+
+  header.main .my-name {
+    width: 200px;
+    border-bottom: 1px solid var(--main-color);
+  }
+
+  header.main .logo {
+    padding-top: 5px;
+    width: 100%;
+  }
+
+  header.main .me {
+    padding-top: 10px;
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 470px) {
+
+  header.main * {
+    margin: 0;
+  }
+
+  header.main container {
+    border-bottom: 1px solid var(--sub-color);
+  }
+
+  header.main .me {
+    text-align: right;
+  }
+
+  header.main .logo img {
+    width: 37px;
+  }
+
+  header.main {
+    margin-top: 33px;
+  }
+
+}
+
+@media screen and (min-width: 550px) {
+
+  #works header {
+    text-align: left;
+    font-size: 15pt;
+  }
+
+  #works .work {
+    width: 32%;
+  }
+
+}
+
+@media screen and (min-width: 550px) and (max-width: 800px) {
+
+  .work .content a {
+    font-size: 7pt;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+  header.main,
+  #works {
+    width: 98%;
+  }
+
+}
+
+@media screen and (min-width: 1070px) {
+
+  header.main container {
+    padding: 12px 5px 4px;
+  }
+
+  header.main .logo img {
+    width: 42px;
+  }
+
+  header.main .my-name {
+    line-height: 20px;
+    font-size: 20pt;
+    font-weight: 300;
+  }
+
+  header.main .my-title {
+    font-size: 9pt;
+    font-weight: 800;
+  }
+
+}
