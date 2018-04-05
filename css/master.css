@@ -4,7 +4,7 @@
   font-family: 'Josefin Sans', sans-serif;
   margin: 0 auto;
   padding: 0;
-  --main-color: #02b3e4;
+  --main-color: yellow;
   --sub-color: #2d3c49;
   --third-color: #7d97ad;
 }
@@ -44,19 +44,26 @@ header .my-name {
   font-weight: 200;
 }
 
+header .my-nick {
+  font-size: 24pt;
+  width: 190px;
+  margin-top: 10px;
+  border-bottom: 1px solid var(--sub-color);
+}
+
 header .my-title {
   margin-top: 3px;
   font-size: 8pt;
   font-weight: 600;
   font-family: 'arial', sans-serif;
-  color: var(--third-color);
+  color: var(--sub-color);
 }
 
 #hero {
   margin: 15px auto 0px;
   max-width: 1000px;
   height: 350px;
-  background: url(https://placeimg.com/800/500/people/2) no-repeat top center;
+  background: url(https://placeimg.com/800/500/people/2) no-repeat top center yellow;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -89,16 +96,24 @@ header .my-title {
   background-size: cover;
 }
 
-#works .work#appify .image {
-  background: url(https://placeimg.com/400/300/tech/1) no-repeat top center;
+#works .work#pxArter .image {
+  background: url(../img/pxArter2-show2.png) no-repeat top center #333;
+  -webkit-background-size: cover;
+    background-size: cover;
+
 }
 
 #works .work#sun-flower .image {
-  background: url(https://placeimg.com/400/300/tech/2) no-repeat top center;
+  background: url(https://placeimg.com/400/300/tech/2) no-repeat top center #333;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 #works .work#bokeh .image {
-  background: url(https://placeimg.com/400/300/tech/3) no-repeat top center;
+  background: url(https://placeimg.com/400/300/tech/3) no-repeat top center #333;
+  -webkit-background-size: cover;
+  background-size: cover;
+
 }
 
 #works .work .content {
@@ -122,34 +137,6 @@ header .my-title {
   color: var(--third-color);
 }
 
-/*
-/* TODO: Dark Theme */
-
-/*
-
-* {
-  --dark-color: #222;
-  --light-color: #eee;
-}
-
-body {
-  background-color: var(--dark-color);
-}
-
-a {
+.work .content a > h3{
   color: var(--sub-color);
 }
-
-header {
-  color: var(--light-color);
-}
-
-header .my-title {
-  color: var(--third-color);
-}
-
-.work .title {
-  color: var(--light-color);
-}
-
-*/

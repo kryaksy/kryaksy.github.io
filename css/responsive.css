@@ -1,8 +1,7 @@
 @media screen and (max-width: 469px) {
 
   header.main .my-name {
-    width: 200px;
-    border-bottom: 1px solid var(--main-color);
+    display: none;
   }
 
   header.main .logo {
@@ -31,12 +30,16 @@
     text-align: right;
   }
 
+  header.main .my-nick {
+    display: none;
+  }
+
   header.main .logo img {
     width: 37px;
   }
 
   header.main {
-    margin-top: 33px;
+    padding-top: 33px;
   }
 
 }
