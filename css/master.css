@@ -103,14 +103,14 @@ header .my-title {
 
 }
 
-#works .work#sun-flower .image {
-  background: url(https://placeimg.com/400/300/tech/2) no-repeat top center #333;
+#works .work#memory-game .image {
+  background: url(../img/memory-game-show.jpg) no-repeat top center #333;
   -webkit-background-size: cover;
   background-size: cover;
 }
 
-#works .work#bokeh .image {
-  background: url(https://placeimg.com/400/300/tech/3) no-repeat top center #333;
+#works .work#yd .image {
+  background: url(../img/yd-show.png) no-repeat top center #333;
   -webkit-background-size: cover;
   background-size: cover;
 
