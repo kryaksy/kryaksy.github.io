@@ -68,7 +68,7 @@ header .my-title {
   margin: 15px auto 0px;
   max-width: 1000px;
   height: 350px;
-  background: url(https://placeimg.com/800/500/people/2) no-repeat top center yellow;
+  background: url(../img/me-hero-min.jpg) no-repeat center gray;
   -webkit-background-size: cover;
   background-size: cover;
 }
