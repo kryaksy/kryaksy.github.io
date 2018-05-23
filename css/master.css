@@ -71,7 +71,7 @@ header .my-title {
 	margin: 15px auto 0px;
 	max-width: 1000px;
 	height: 350px;
-	background: url(../img/me-hero-min.jpg) no-repeat center gray;
+	background: url(../img/hero-min.jpg) no-repeat center gray;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
