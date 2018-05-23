@@ -110,6 +110,12 @@ header .my-title {
 	box-shadow: 0px 2px 20px -10px #000;
 }
 
+#works .work#frogger .image {
+	background: url(../img/frogger.png) no-repeat top center #333;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
 #works .work#pxArter .image {
 	background: url(../img/pxArter2-show2.png) no-repeat top center #333;
 	-webkit-background-size: cover;
