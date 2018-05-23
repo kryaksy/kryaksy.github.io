@@ -1,179 +1,177 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100');
-
 * {
-  font-family: 'Josefin Sans', sans-serif;
-  margin: 0 auto;
-  padding: 0;
-  --main-color: yellow;
-  --sub-color: #2d3c49;
-  --third-color: #7d97ad;
-  transition: all 0.4s ease-out;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	--main-color: yellow;
+	--sub-color: #2d3c49;
+	--third-color: #7d97ad;
+	transition: all 0.4s ease-out;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 html {
-    background-color: #eee;
+	background-color: #eee;
 }
 
 container {
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 header {
-  width: 98%;
-  text-transform: uppercase;
+	width: 98%;
+	text-transform: uppercase;
 }
 
 header.main {
-  max-width: 1048px;
+	max-width: 1048px;
 }
 
 header container {
-  padding: 12px 15px 4px;
-  text-align: center;
-  color: var(--sub-color);
-  justify-content: space-between;
-  -ms-align-items: flex-end;
-  align-items: flex-end;
+	padding: 12px 15px 4px;
+	text-align: center;
+	color: var(--sub-color);
+	justify-content: space-between;
+	-ms-align-items: flex-end;
+	align-items: flex-end;
 }
 
 header .logo img {
-  width: 30px;
+	width: 30px;
 }
 
 header .my-name {
-  line-height: 18px;
-  font-size: 18pt;
-  font-weight: 200;
+	line-height: 18px;
+	font-size: 18pt;
+	font-weight: 200;
 }
 
 header .my-nick {
-  font-size: 24pt;
-  width: 190px;
-  margin-top: 10px;
-  border-bottom: 1px solid var(--sub-color);
+	font-size: 24pt;
+	width: 190px;
+	margin-top: 10px;
+	border-bottom: 1px solid var(--sub-color);
 }
 
 header .my-title {
-  margin-top: 3px;
-  font-size: 8pt;
-  font-weight: 600;
-  font-family: 'arial', sans-serif;
-  color: var(--sub-color);
+	margin-top: 3px;
+	font-size: 8pt;
+	font-weight: 600;
+	font-family: 'arial', sans-serif;
+	color: var(--sub-color);
 }
 
 #hero {
-  margin: 15px auto 0px;
-  max-width: 1000px;
-  height: 350px;
-  background: url(../img/me-hero-min.jpg) no-repeat center gray;
-  -webkit-background-size: cover;
-  background-size: cover;
+	margin: 15px auto 0px;
+	max-width: 1000px;
+	height: 350px;
+	background: url(../img/me-hero-min.jpg) no-repeat center gray;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 #works {
-  width: 98%;
-  padding-top: 25px;
-  max-width: 1048px;
+	width: 98%;
+	padding-top: 25px;
+	max-width: 1048px;
 }
 
 #works header {
-  max-width: 1035px;
-  width: 100%;
-  padding-bottom: 15px;
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 13pt;
-  color: var(--third-color);
+	max-width: 1035px;
+	width: 100%;
+	padding-bottom: 15px;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 13pt;
+	color: var(--third-color);
 }
 
 #works .work {
-  width: 350px;
-  padding-bottom: 15px;
-  text-align: center;
+	width: 350px;
+	padding-bottom: 15px;
+	text-align: center;
 }
 
 #works .work .image {
-  height: 200px;
-  -webkit-background-size: cover;
-  background-size: cover;
-  /* box-shadow: 0px 2px 10px -5px #000; */
-  border: solid 10px #fff;
+	height: 200px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	/* box-shadow: 0px 2px 10px -5px #000; */
+	border: solid 10px #fff;
 }
 
 #works .work .image:hover {
-  box-shadow: 0px 2px 20px -10px #000;
+	box-shadow: 0px 2px 20px -10px #000;
 }
 
 #works .work#pxArter .image {
-  background: url(../img/pxArter2-show2.png) no-repeat top center #333;
-  -webkit-background-size: cover;
-    background-size: cover;
+	background: url(../img/pxArter2-show2.png) no-repeat top center #333;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 #works .work#memory-game .image {
-  background: url(../img/memory-game-show.jpg) no-repeat top center #333;
-  -webkit-background-size: cover;
-  background-size: cover;
+	background: url(../img/memory-game-show.jpg) no-repeat top center #333;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 #works .work#yd .image {
-  background: url(../img/yd-show.png) no-repeat top center #333;
-  -webkit-background-size: cover;
-  background-size: cover;
-
+	background: url(../img/yd-show.png) no-repeat top center #333;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 #works .work .content {
-  padding: 8px;
+	padding: 8px;
 }
 
 #works .work .content .title {
-  width: 100%;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  font-size: 16pt;
-  font-weight: 500;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 16pt;
+	font-weight: 500;
 }
 
 .work .content a {
-  padding: 5px;
-  width: 100%;
-  font-family: sans-serif;
-  font-size: 9pt;
-  color: var(--third-color);
+	padding: 5px;
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 9pt;
+	color: var(--third-color);
 }
 
-.work .content a > h3 {
-  color: var(--sub-color);
+.work .content a>h3 {
+	color: var(--sub-color);
 }
 
 div.social {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: 35px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 35px;
 }
 
-div.social .icons{
-    max-width: 350px;
-    width: 100%;
-    text-align: center;
-    border-top: 1px solid var(--third-color);
+div.social .icons {
+	max-width: 350px;
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid var(--third-color);
 }
 
 div.social a {
-    font-size: 20px;
-    color: var(--third-color);
-    padding: 20px 15px;
+	font-size: 20px;
+	color: var(--third-color);
+	padding: 20px 15px;
 }
 
 div.social a:hover {
-    color: black;
+	color: black;
 }
