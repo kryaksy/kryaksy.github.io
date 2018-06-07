@@ -19,7 +19,7 @@ li {
 
 .name{
 	font-family: monospace;
-
+	text-transform: uppercase;
 }
 
 html {
