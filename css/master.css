@@ -117,7 +117,7 @@ header .my-title {
 	border: solid 10px #fff;
 }
 
-#works .work .image:hover {
+#works .work:hover {
 	box-shadow: 0px 2px 20px -5px #000;
 }
 
